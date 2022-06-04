@@ -1,0 +1,49 @@
+:root{
+    --tex-color:#fe9b8e;
+    --tex: #0c1451;
+    --white:#fff;
+    --footer: #0b1455;
+    --line: #0c1451;
+}
+
+html{
+   font-size: 62.5%;
+   font-family: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    border: none;
+}
+
+@keyframes slow{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes out {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
